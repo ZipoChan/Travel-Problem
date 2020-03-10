@@ -1,1 +1,3 @@
-# WorkSHop-Problem-C-QT-
+# WorkSHop-Problem
+#C++
+#QT
