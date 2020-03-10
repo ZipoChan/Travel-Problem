@@ -1,0 +1,12 @@
+debug/main.o
+debug/mainwindow.o
+debug/module.o
+debug/server.o
+debug/serverthread.o
+debug/mysocket.o
+debug/aco.o
+debug/moc_mainwindow.o
+debug/moc_module.o
+debug/moc_server.o
+debug/moc_serverthread.o
+debug/moc_mysocket.o

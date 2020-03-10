@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1491</width>
+    <height>985</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1229</x>
+      <y>6</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ptn_ok">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>280</y>
+      <width>80</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="le_name">
+    <property name="geometry">
+     <rect>
+      <x>277</x>
+      <y>88</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>7</y>
+      <width>336</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;华文隶书&quot;;</string>
+    </property>
+    <property name="text">
+     <string>欢迎登陆模拟旅行查询系统</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>395</width>
+      <height>147</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>210</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="2,1">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+         </property>
+         <property name="text">
+          <string>当前时间：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="lcdTimer"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QComboBox" name="co_s">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>88</y>
+      <width>54</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>北京</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>上海</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>广州</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>哈尔滨</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>沈阳</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>天津</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>兰州</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>成都</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>贵阳</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>武汉</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>济南</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>西宁</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>昆明</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>合肥</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>西安</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>石家庄</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>呼和浩特</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>厦门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>长沙</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>南宁</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>长春</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>88</y>
+      <width>80</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::PreventContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+    </property>
+    <property name="text">
+     <string>出发城市：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>224</x>
+      <y>133</y>
+      <width>112</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+    </property>
+    <property name="text">
+     <string>选择经停城市：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>60</y>
+      <width>48</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+    </property>
+    <property name="text">
+     <string>用户：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>172</y>
+      <width>112</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+    </property>
+    <property name="text">
+     <string>请输入限定时间</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>149</x>
+      <y>172</y>
+      <width>68</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>108</y>
+      <width>78</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,0">
+     <item>
+      <widget class="QLabel" name="xy">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+       </property>
+       <property name="text">
+        <string>位置 </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>140</y>
+      <width>317</width>
+      <height>133</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QCheckBox" name="tj">
+         <property name="text">
+          <string>天津</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="bj">
+         <property name="text">
+          <string>北京</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="jn">
+         <property name="text">
+          <string>济南</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="sh">
+         <property name="text">
+          <string>上海</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="km">
+         <property name="text">
+          <string>昆明</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QCheckBox" name="gz">
+         <property name="text">
+          <string>广州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="gy">
+         <property name="text">
+          <string>贵阳</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="wh">
+         <property name="text">
+          <string>武汉</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="sy">
+         <property name="text">
+          <string>沈阳</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="hf">
+         <property name="text">
+          <string>合肥</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QCheckBox" name="cd">
+         <property name="text">
+          <string>成都</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="lz">
+         <property name="text">
+          <string>兰州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="xn">
+         <property name="text">
+          <string>西宁</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="xa">
+         <property name="text">
+          <string>西安</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="xm">
+         <property name="text">
+          <string>厦门</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QCheckBox" name="heb">
+         <property name="text">
+          <string>哈尔滨</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="sjz">
+         <property name="text">
+          <string>石家庄</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="cs">
+         <property name="text">
+          <string>长沙</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="nn">
+         <property name="text">
+          <string>南宁</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="hhht">
+       <property name="text">
+        <string>呼和浩特</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>144</y>
+      <width>324</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+       </property>
+       <property name="text">
+        <string>选择方案：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="co_p">
+       <item>
+        <property name="text">
+         <string>最少花费策略</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>最短时间策略</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>限定时间最少花费策略</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>116</y>
+      <width>234</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+       </property>
+       <property name="text">
+        <string>目的城市：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="co_e">
+       <item>
+        <property name="text">
+         <string>北京</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>上海</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>广州</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>哈尔滨</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>沈阳</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>天津</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>兰州</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>成都</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>贵阳</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>武汉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>济南</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>西宁</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>昆明</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>合肥</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>西安</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>石家庄</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>呼和浩特</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>厦门</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>长沙</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>南宁</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1491</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

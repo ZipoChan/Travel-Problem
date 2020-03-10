@@ -1,0 +1,12 @@
+release/main.o
+release/mainwindow.o
+release/module.o
+release/server.o
+release/serverthread.o
+release/mysocket.o
+release/aco.o
+release/moc_mainwindow.o
+release/moc_module.o
+release/moc_server.o
+release/moc_serverthread.o
+release/moc_mysocket.o
